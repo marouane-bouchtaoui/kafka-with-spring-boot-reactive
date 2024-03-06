@@ -11,7 +11,7 @@ public class WikimediaTopicConfig {
     @Bean
     public NewTopic wikimediaStreamTopic() {
         return TopicBuilder
-                .name("test")
+                .name("wikimedia-stream")
                 .build();
     }
 }
